@@ -5,5 +5,5 @@ job:
   runs-on: ubuntu-latest
 
   steps:
-    name: Echo String
+   - name: Echo String
     run: echo "This is my first workflow."
