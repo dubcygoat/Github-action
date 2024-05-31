@@ -1,8 +1,8 @@
 name: Run shell commands
 on: [push]
-
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Echo String
-    run: echo "This is my first workflow."
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run a one-line script
+      run: echo "Hello, world, this is my first action!"
